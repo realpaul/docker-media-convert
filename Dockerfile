@@ -11,4 +11,4 @@ RUN echo "deb http://mirrors.163.com/debian buster main\ndeb http://mirrors.163.
   && mkdir -p /data
 
 ADD convert.sh /data/convert.sh
-# ENTRYPOINT ["/data/convert.sh"]
+ENTRYPOINT ["/data/convert.sh"]
